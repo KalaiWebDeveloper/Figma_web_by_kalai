@@ -353,6 +353,7 @@ margin-left: 40px;
 /* Tablet Responsive */
 @media (max-width: 768px) {
   body {
+  
     padding: 0 15px;
     height: 3000px;
   }
@@ -497,30 +498,67 @@ margin-left: 40px;
 
 /* Mobile Responsive */
 @media (max-width: 480px) {
+
+
+    .logo-container{
+    margin-left: 50px;
+  }
+
+  .nav ul {
+    margin-left: -20px;
+    margin-top: 30px;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .logo button {
+     margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    margin-left: 60px;
+  }
+
   .content {
-    font-size: 20px;
+    font-size: 14px;
+    margin-right: -10px;
   }
 
   .content-1 p {
     font-size: 18px;
   }
 
-  .center-button p {
-    font-size: 18px;
+  .center-button p{
+    font-size: 18px; 
   }
 
+    .center-button pre{
+    font-size: 15px; 
+    margin-left: -30px;
+  }
   .center-button button,
   .center-button-2 button {
-    /* margin-right: 100px; */
-    /* width: 150px; */
+    margin-right: 0px;
+    margin-left: 60px;
+    width: 150px;
     height: 40px;
   }
 
   .left-button,
   .right-button {
-    width: 140px;
+    width: 190px;
     height: 40px;
     font-size: 14px;
+    margin-left: -20px;
+    margin-right: 26px;
+    justify-content: center;
+    align-items: center;
+  }
+  .center-container img{
+    width: 280px;
+    margin-left: -60px;
+  }
+  .center-content{
+    margin-left: -30px;
   }
 
   .box {
