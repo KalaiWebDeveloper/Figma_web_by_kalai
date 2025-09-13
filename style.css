@@ -415,8 +415,8 @@ margin-left: 40px;
   .center-button button,
   .center-button-2 button {
     margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 75px;
+    /* margin-right: 100px; */
   }
     .center-button p,pre{
       margin-left: -25px
@@ -426,13 +426,13 @@ margin-left: 40px;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    margin-right: 40px;
+    margin-right: 5px;
   }
 
   .center-container {
     flex-direction: column;
     align-items: center;
-    margin-left: 0px;
+    margin-left: 18px;
   }
 
   .center-button-2{
@@ -441,7 +441,7 @@ margin-left: 40px;
   .center-container img {
     width: 80%;
     height: auto;
-    margin-left: 10px;
+    margin-left: 5px;
   }
 
   .center-content {
@@ -511,7 +511,8 @@ margin-left: 40px;
 
   .center-button button,
   .center-button-2 button {
-    width: 150px;
+    /* margin-right: 100px; */
+    /* width: 150px; */
     height: 40px;
   }
 
