@@ -7,11 +7,11 @@ body {
   font-family: "DM Sans", sans-serif;
   color: white;
   padding: 0px 30px;
-    height: 3000px;
-    background-image: url(./assets/background.png);
-    background-size: cover;
+  height: 3000px;
+  background-image: url(./assets/background.png);
+  background-size: cover;
 }
-.main{
+.main {
   margin-left: 40px;
 }
 nav {
@@ -105,37 +105,43 @@ nav {
   align-items: center;
   display: flex;
 }
-.center-button p{
+.center-button p {
   width: 100%;
   text-align: center;
   margin-top: 50px;
   font-size: 30px;
 }
-.center-button pre{
+.center-button pre {
   font-size: 15px;
   margin-left: 10px;
 }
-.center-button img{
+.center-button img {
   z-index: 1;
   width: 100%;
   height: 200px;
-  
 }
-.main-box{
+.main-box {
   display: flex;
   justify-content: space-around;
   gap: 50px;
 }
-.box{
+.box {
   margin-left: -25px;
   margin-top: 60px;
   border: 2px solid rgb(255, 255, 255);
   width: 360px;
   height: 200px;
   border-radius: 25px;
-  background:linear-gradient(14deg,rgba(0,0,0,0.65) 0%,rgba(135,131,131,1) 0%, rgba(64,64,62,1) 40%,rgba(0,0,0,1) 100%,rgba(237,221,83,1) 100%);
+  background: linear-gradient(
+    14deg,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(135, 131, 131, 1) 0%,
+    rgba(64, 64, 62, 1) 40%,
+    rgba(0, 0, 0, 1) 100%,
+    rgba(237, 221, 83, 1) 100%
+  );
 }
-.box img{
+.box img {
   margin-top: 10px;
   margin-left: 10px;
 }
@@ -144,14 +150,14 @@ nav {
   margin-top: 10px;
   font-size: 20px;
 }
-.box p{
-   margin-left: 10px;
-  margin-top: 15px; 
+.box p {
+  margin-left: 10px;
+  margin-top: 15px;
   margin-bottom: 30px;
 }
-.box a{
-  color: white; 
-   margin-left: 10px;
+.box a {
+  color: white;
+  margin-left: 10px;
   text-decoration: none;
 }
 .center-button-2 button {
@@ -169,19 +175,17 @@ nav {
   display: flex;
   padding-left: 15px;
 }
-.center-container{
+.center-container {
   display: flex;
   margin-top: 90px;
-justify-content: start;
-margin-left: 40px;
+  justify-content: start;
+  margin-left: 40px;
 }
-.center-container img{
+.center-container img {
   width: 500px;
   height: 500px;
-
 }
-.center-container button{
-
+.center-container button {
   margin-left: 8px;
   width: 116px;
   height: 40px;
@@ -195,49 +199,44 @@ margin-left: 40px;
   display: flex;
   padding-left: 15px;
 }
-.center-content h3{
+.center-content h3 {
   margin-left: 13px;
 }
-.center-content{
+.center-content {
   margin-top: 120px;
   margin-left: 99px;
   width: 450px;
 }
 
-.numbers{
+.numbers {
   margin-left: 14px;
   margin-top: 20px;
- display: flex;
- justify-content:start;
- gap: 90px;
+  display: flex;
+  justify-content: start;
+  gap: 90px;
 }
-.numbers-p{
+.numbers-p {
   text-align: start;
-    margin-top: 20px;
- display: flex;
- justify-content:start;
- 
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
 }
-.about-box{
-
-    display: flex;
+.about-box {
+  display: flex;
   justify-content: space-evenly;
   /* gap: 50px; */
-
 }
-.about-1{
-
-      margin-left: -25px;
-  margin-top:80px;
+.about-1 {
+  margin-left: -25px;
+  margin-top: 80px;
   /* border: 2px solid rgb(255, 255, 255); */
   width: 490px;
   height: 199px;
   border-radius: 20px;
-  background:black;
+  background: black;
 }
-.about-1 button{
- 
-   margin-top: 17px;
+.about-1 button {
+  margin-top: 17px;
   margin-left: 20px;
   padding: 0px;
   width: 100px;
@@ -251,42 +250,39 @@ margin-left: 40px;
   align-items: center;
   display: flex;
 }
-.about-1 h2,p{
+.about-1 h2,
+p {
   margin-top: 9px;
   margin-left: 15px;
   margin-bottom: 10px;
 }
-.about-1 a{
-  color: white; 
-   margin-left: 15px;
+.about-1 a {
+  color: white;
+  margin-left: 15px;
   text-decoration: none;
 }
-.about-1 img{
+.about-1 img {
   border-radius: 20px;
   float: right;
   margin-top: -47px;
   height: 201px;
 }
-.about-box-next{
-
-      display: flex;
+.about-box-next {
+  display: flex;
   justify-content: space-evenly;
   /* gap: 200px; */
-
 }
-.about-2{
-
-      margin-left: -25px;
+.about-2 {
+  margin-left: -25px;
   margin-top: 60px;
   /* border: 2px solid rgb(255, 255, 255); */
   width: 490px;
   height: 199px;
   border-radius: 20px;
-  background:black;
+  background: black;
 }
-.about-2 button{
- 
-   margin-top: 17px;
+.about-2 button {
+  margin-top: 17px;
   margin-left: 20px;
   padding: 0px;
   width: 100px;
@@ -300,35 +296,36 @@ margin-left: 40px;
   align-items: center;
   display: flex;
 }
-.about-2 h2,p{
+.about-2 h2,
+p {
   margin-top: 9px;
   margin-left: 15px;
   margin-bottom: 10px;
 }
-.about-2 a{
-  color: white; 
-   margin-left: 15px;
+.about-2 a {
+  color: white;
+  margin-left: 15px;
   text-decoration: none;
 }
-.about-2 img{
+.about-2 img {
   border-radius: 20px;
   float: right;
   margin-top: -47px;
   height: 193px;
 }
-.main-bottom{
+.main-bottom {
   display: flex;
   gap: 30px;
   margin-top: 80px;
   margin-left: 90px;
 }
-.bottom-box{
+.bottom-box {
   /* border: 1px solid white; */
   width: 300px;
   height: 340px;
   background-color: black;
 }
-.small-box{
+.small-box {
   background-color: rgb(255, 255, 255);
   border: 2px slid white;
   width: 94%;
@@ -337,28 +334,26 @@ margin-left: 40px;
   margin-top: 9px;
   margin-left: 9px;
 }
-.bottom-box h2,p{
-    margin-top: 9px;
+.bottom-box h2,
+p {
+  margin-top: 9px;
   margin-left: 15px;
   margin-bottom: 10px;
 }
-.bottom-box a{
-  color: white; 
-   margin-left: 15px;
+.bottom-box a {
+  color: white;
+  margin-left: 15px;
   text-decoration: none;
 }
-
-
 
 /* Tablet Responsive */
 @media (max-width: 768px) {
   body {
-  
     padding: 0 15px;
     height: 3000px;
   }
 
-  .logo-container{
+  .logo-container {
     margin-left: 80px;
   }
   nav {
@@ -373,7 +368,7 @@ margin-left: 40px;
   }
 
   .logo button {
-     margin-top: 15px;
+    margin-top: 15px;
     width: 100%;
     text-align: center;
     margin-left: 79px;
@@ -403,7 +398,8 @@ margin-left: 40px;
     text-align: center;
     margin-left: -30px;
   }
-  .left-button,.right-button{
+  .left-button,
+  .right-button {
     display: flex;
   }
 
@@ -419,9 +415,10 @@ margin-left: 40px;
     margin-left: 74px;
     /* margin-right: 100px; */
   }
-    .center-button p,pre{
-      margin-left: -25px
-    }
+  .center-button p,
+  pre {
+    margin-left: -25px;
+  }
 
   .main-box {
     flex-direction: column;
@@ -436,7 +433,7 @@ margin-left: 40px;
     margin-left: 18px;
   }
 
-  .center-button-2{
+  .center-button-2 {
     margin-right: 40px;
   }
   .center-container img {
@@ -498,9 +495,7 @@ margin-left: 40px;
 
 /* Mobile Responsive */
 @media (max-width: 480px) {
-
-
-    .logo-container{
+  .logo-container {
     margin-left: 50px;
   }
 
@@ -512,7 +507,7 @@ margin-left: 40px;
   }
 
   .logo button {
-     margin-top: 15px;
+    margin-top: 15px;
     width: 100%;
     text-align: center;
     margin-left: 60px;
@@ -527,12 +522,12 @@ margin-left: 40px;
     font-size: 18px;
   }
 
-  .center-button p{
-    font-size: 18px; 
+  .center-button p {
+    font-size: 18px;
   }
 
-    .center-button pre{
-    font-size: 15px; 
+  .center-button pre {
+    font-size: 15px;
     margin-left: -30px;
   }
   .center-button button,
@@ -553,11 +548,11 @@ margin-left: 40px;
     justify-content: center;
     align-items: center;
   }
-  .center-container img{
+  .center-container img {
     width: 280px;
     margin-left: -60px;
   }
-  .center-content{
+  .center-content {
     margin-left: -30px;
   }
 
